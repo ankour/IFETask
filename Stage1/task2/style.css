@@ -1,0 +1,36 @@
+body,html,h1,h2,h3,table,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
+html,body{font: 14px/1 'MicroSoft YaHei';background:#dedede;}
+a{text-decoration: none;cursor: pointer;}
+a:hover{text-decoration: none;}
+
+.header{
+	width: 100%;
+	height: 60px;
+	background: #333;
+}
+.header .logo{
+	float: left;
+	width: 121px;
+	height: 60px;
+	margin-left: 30px;
+	margin-top:-5px;
+	background: url(https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3832851394,4214400323&fm=58&s=39C718720E8EBE011B398BAC0300F024) no-repeat;
+}
+.header .nav{
+	float: right;
+}
+.header .nav li{
+	float: left;
+	width: 90px;
+	line-height: 2;
+}
+.header .nav a{
+	color: #fff;
+	font-size: 12px;
+}
+.header .nav a:hover{
+	color: #ccc;
+}
+.article{
+	
+}
