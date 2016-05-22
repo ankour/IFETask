@@ -1,7 +1,10 @@
-body,html,h1,h2,h3,table,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
+body,html,h1,h2,h3,ul,li,ol,table,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
 html,body{font: 14px/1 'MicroSoft YaHei';background:#dedede;}
-a{text-decoration: none;cursor: pointer;}
+a{color:blue;cursor: pointer;}
 a:hover{text-decoration: none;}
+h2{
+
+}
 
 .header{
 	width: 100%;
@@ -18,6 +21,7 @@ a:hover{text-decoration: none;}
 }
 .header .nav{
 	float: right;
+	margin-top: 14px;
 }
 .header .nav li{
 	float: left;
@@ -31,6 +35,89 @@ a:hover{text-decoration: none;}
 .header .nav a:hover{
 	color: #ccc;
 }
-.article{
+article{
+	margin: 20px;
+	padding: 35px 26px 30px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+article h2{
 	
+	line-height: 2;
+}
+article h3{
+	line-height: 2;
+	font-weight: normal;
+}
+article .info{
+	line-height: 2;
+	font-size: 12px;
+}
+article .content{
+	text-indent: 2em;
+	line-height: 2;
+	font-size: 16px;
+}
+article img{
+	margin:10px 0;
+}
+article ul{
+	list-style: none;
+	line-height: 2;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.imglist{
+	margin: 20px;
+	padding: 35px 26px 30px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+.imglist ul{
+	list-style: none;
+	margin-left: 40px;
+	font-size: 12px;
+}
+.imglist li{
+	width: 120px;
+	height: 124px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+}
+.imglist p{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 10px;
+}
+.imglist img{
+	padding: 0 10px 10px 10px;
+}
+.rank{
+	line-height: 1.8;
+	margin-left: 40px;
+	font-size: 16px;
+}
+.tb{
+	width: 100%;
+	height: 20px;
+	border-collapse: collapse;
+	font-size: 12px;
+	text-indent: 5px;
+}
+.tb tr,td{
+	border: 1px solid #ccc;
+}
+.tb .head{
+	background: #000;
+	color: #fff;
+}
+.tb td{
+	height: 20px;
+}
+.tb .bottom{
+	
+	background: #ccc;
+	font-weight: bold;
 }
