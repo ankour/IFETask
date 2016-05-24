@@ -2,9 +2,6 @@ body,html,h1,h2,h3,ul,li,ol,table,tr,td,input,label,section,form,p{margin: 0;pad
 html,body{font: 14px/1 'MicroSoft YaHei';background:#dedede;}
 a{color:blue;cursor: pointer;}
 a:hover{text-decoration: none;}
-h2{
-
-}
 
 .header{
 	width: 100%;
@@ -96,8 +93,8 @@ article ul{
 }
 .rank{
 	line-height: 1.8;
-	margin-left: 40px;
-	font-size: 16px;
+	margin:12px 40px;
+	font-size: 14px;
 }
 .tb{
 	width: 100%;
@@ -120,4 +117,55 @@ article ul{
 	
 	background: #ccc;
 	font-weight: bold;
+}
+
+.side{
+	margin: 20px;
+	padding: 35px 26px 10px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+.side .caption{
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+	line-height: 40px;
+	height: 40px;
+}
+.side div{
+	margin:15px 0;
+}
+.side div p{
+	margin-left: 35%;
+	padding: 10px 0 0 10px;
+	color: #ccc;
+}
+.side .tit{
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	text-align: right;
+}
+.side form textarea{
+	width: 765px;
+	height: 100px;
+}
+.side .btn{
+	padding: 10px 47%;
+	margin-top: 10px;
+	background: #3355D0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	height: 68px;
+	text-align: center;
+	line-height: 60px;
+	background: #000;
+	color: #fff;
 }
