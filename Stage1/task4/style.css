@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0;}
 
-.container{
+/* .container{
 	width: 400px;
 	height: 200px;
 	position: absolute;
@@ -9,9 +9,20 @@
 	margin-top: -100px;
 	margin-left: -200px;
 	background: #ccc;
+} */
+.container{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #ccc;
 }
 .semicircle{
-	position: relative;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 50px;
