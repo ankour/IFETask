@@ -1,5 +1,6 @@
-body,html,div,h1,h2,h3,span,p{margin: 0;padding: 0;}
-body{background: #ccc;font: 12px/1 "黑体";}
+body,html,div,h1,h2,h3,span,p,blockquote{margin: 0;padding: 0;}
+body{background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/subtle_white_mini_waves.png');font: 12px/1 "黑体";}
+ul,li{list-style-image: url('img/listimg.png');}
 .clearfix:after{
 	content: '';
 	display: block;
@@ -43,11 +44,11 @@ body{background: #ccc;font: 12px/1 "黑体";}
 	margin: 0 auto;
 	padding-top: 34px;
 }
-.container .slide{
+.container .slider{
 	position: relative;
 	float: left;
 }
-.container .slide .maskl{
+.container .slider .maskl{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -56,7 +57,7 @@ body{background: #ccc;font: 12px/1 "黑体";}
 	background: #75b86b;
 	opacity: 0.5;
 }
-.container .slide .maskr{
+.container .slider .maskr{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -122,6 +123,7 @@ body{background: #ccc;font: 12px/1 "黑体";}
 	float: left;
 	margin-top: 30px;
 	margin-right: 30px;
+	overflow: hidden;
 }
 .container .articlel a{
 	font-size: 16px;
@@ -140,6 +142,7 @@ body{background: #ccc;font: 12px/1 "黑体";}
 	float: left;
 	margin-top: 30px;
 	margin-right: 30px;
+	overflow: hidden;
 }
 .container .articlem a{
 	font-size: 16px;
@@ -159,6 +162,7 @@ body{background: #ccc;font: 12px/1 "黑体";}
 	float: left;
 	margin-top: 30px;
 	margin-right: 30px;
+	overflow: hidden;
 }
 .container .articler a{
 	font-size: 16px;
@@ -180,39 +184,196 @@ body{background: #ccc;font: 12px/1 "黑体";}
 .container .content{
 	float: left;
 	width: 892px;
-	margin: 72px auto 0;
+	margin: 72px auto 40px;
 }
-.container .content .content-tit{
+.content-left{
+	float: left;
 	width: 415px;
+}
+.content-left .tit{
 	border-bottom: 2px solid #10456b;
 }
-.container .content .content-tit p{
+.content-left .tit p{
 	font-size: 42px;
 	color: #11456b;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 50px;
 	font-family: "黑体";
 }
-.container .content .content-tit span{
+.content-left .tit span{
 	font-size: 72px;
 	color: #f5e327;
 	font-weight: bold;
 	font-style: oblique;
 	font-family: "黑体";
 }
-.container .content .content-tit h2{
+.content-left .tit h2{
 	font-size: 33px;
 	color: #11456b;
 	font-weight: bold;
 	line-height: 50px;
 	font-family: "黑体";
 }
-.container .content .content-main{
-	width: 415px;
+.content-left .main{
+	width: 407px;
+	height: 416px;
 	margin-top:25px;
+	overflow: hidden;
 }
-.container .content .content-main p:first-letter{
+.content-left .main .one:first-letter{
+	float: left;
 	font-size: 70px;
 	color: #f5e327;
 	font-family: "MicroSoft YaHei";
+	line-height: 70px;
+	margin: 0 6px 6px 0;
+
+}
+.content-left .main p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+}
+.content-left .main .img{
+	float: right;
+	margin: 20px 0 20px 14px;
+}
+.content-right{
+	float: right;
+	width: 458px;
+}
+.content-right .slider{
+	position: relative;
+	float: right;
+	height: 257px;
+}
+.content-right .slider .cover{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 458px;
+	height: 61px;
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.content-right .slider .cover h2{
+	font-size: 26px;
+	color: #fff;
+	font-family: "MicroSoft YaHei";
+	line-height: 44px;
+	border-left: 3px solid #72b16a;
+	display: inline-block;
+	margin:10px 0 0 38px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.content-right .slider .cover p{
+	color: #72b16a;
+	font-family: "MicroSoft YaHei";
+	font-style: oblique;
+	line-height: 140%;
+	display: inline-block;
+}
+.content-right .title{
+	position: relative;
+	float: right;
+	width: 458px;
+	height: 318px;
+	margin-top: 30px;
+	background: #eeedd6;
+}
+.content-right .title .title-item{
+	width: 410px;
+	margin-top: 20px;
+}	
+.content-right .title li{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 20px;
+	padding: 10px 0 10px 6px;
+}
+.content-right .title li span{
+	float: right;
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 20px;
+	font-style: oblique;
+}
+.content-right .title-listl{
+	position: absolute;
+	bottom: 0;
+	width: 260px;
+	height: 160px;
+	background: #d45d5c;
+	display: inline-block;
+}
+.content-right .title-listl .zero{
+	font-size: 110px;
+	color: #fff;
+	font-family: "MicroSoft YaHei";
+	line-height: 86px;
+	border-right: 2px solid #fff;
+	margin-top: 40px;
+	display: inline-block;
+}
+.content-right .title-listl  .num{
+	position: relative;
+	top: -40px;
+	left:7px;
+	font-size: 21px;
+	color: #fff;
+	font-family: "黑体";
+	line-height: 24px;
+	display: inline-block;
+}
+.content-right .title-listl .en{
+	position: relative;
+	bottom: 30px;
+	left: 80px;
+	font-size: 12px;
+	color: #fff;
+	font-family: "黑体";
+	line-height: 10px;
+	display: inline-block;	
+}
+.content-right .title-listr{
+	float: right;
+	width: 180px;
+	height: 130px;
+	margin-top: 30px;
+
+}
+.content-right .title-listr p{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "黑体";
+	line-height: 16px;
+}
+.content-right .title-listr span{
+	font: 72px "黑体";
+    color: #d45d5c;
+}
+.content-right .title-listr .l{
+	float: left;
+    margin: -18px 10px 0 -40px;
+    height: 30px;
+}
+.content-right .title-listr .r{
+	float: right;
+	margin: -5px -20px;
+}
+.footer{
+	height: 60px;
+	width: 892px;
+	margin: 0 auto;
+	border-top: 1px solid #938e8c;
+}
+.footer-tit{
+	float: right;
+	color: #d45d5c;
+	display: inline-block;
 }
