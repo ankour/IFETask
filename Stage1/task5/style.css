@@ -1,4 +1,4 @@
-body,html,h1,h2,h3,ul,li,ol,table,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
+body,html,h1,h2,h3,ul,li,ol,table,span,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
 html,body{font: 14px/1 'MicroSoft YaHei';background:#dedede;}
 a{color:blue;cursor: pointer;}
 a:hover{text-decoration: none;}
@@ -21,7 +21,6 @@ a:hover{text-decoration: none;}
 }
 .header .nav{
 	float: right;
-	
 }
 .header .nav li{
 	float: left;
@@ -36,16 +35,66 @@ a:hover{text-decoration: none;}
 .header .nav a:hover{
 	color: #ccc;
 }
+.side{
+  	background: #fff;
+  	float: right;
+  	width: 350px;
+  	margin-top: 20px;
+  	margin-right: 20px;
+  	padding: 20px;
+  	box-shadow: 1px 1px 2px 1px #848484;
+}
+.side .caption{
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+	line-height: 40px;
+	height: 40px;
+}
+.side form{
+	width: 100%;
+	min-width: 300px;
+}
+.side div{
+	margin:15px 0;
+}
+.side div p{
+	margin-left: 35%;
+	padding: 10px 0 0 10px;
+	color: #ccc;
+}
+.side .tit{
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	text-align: right;
+}
+.side form textarea{
+	width: 60%;
+	height: 100px;
+}
+.side .btn{
+	padding: 10px 41%;
+	margin-top: 10px;
+	background: #3355D0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.container{
+	width: calc(100% - 410px);
+	float: left;
+}
 article{
-	margin: 20px 430px 20px 20px;
+	margin:20px;
 	padding: 35px 26px 30px 20px;
 	background: #fff;
 	display: block;
 	box-shadow: 1px 1px 2px 1px #848484;
 }
-
 article h2{
-	
 	line-height: 2;
 }
 article h3{
@@ -71,7 +120,7 @@ article ul{
 	font-size: 16px;
 }
 .imglist{
-	margin: 20px 430px 20px 20px;
+	margin:20px;
 	padding: 35px 26px 30px 20px;
 	background: #fff;
 	display: block;
@@ -125,58 +174,8 @@ article ul{
 	height: 20px;
 }
 .tb .bottom{
-	
 	background: #ccc;
 	font-weight: bold;
-}
-
-.side{
-	float: right;
-	width: 350px;
-	margin: 20px;
-	padding: 20px;
-	background: #fff;
-	
-	box-shadow: 1px 1px 2px 1px #848484;
-}
-.side .caption{
-	padding-left: 10px;
-	border-left: 3px solid #ccc;
-	line-height: 40px;
-	height: 40px;
-}
-.side form{
-	width: 100%;
-	min-width: 300px;
-}
-.side div{
-	margin:15px 0;
-}
-.side div p{
-	margin-left: 35%;
-	padding: 10px 0 0 10px;
-	color: #ccc;
-}
-.side .tit{
-	width: 35%;
-	float: left;
-	margin-right: 10px;
-	margin-top: 3px;
-	text-align: right;
-}
-.side form textarea{
-	width: 60%;
-	height: 100px;
-}
-.side .btn{
-	padding: 10px 41%;
-	margin-top: 10px;
-	background: #3355D0;
-	color: #fff;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
-	cursor: pointer;
 }
 footer{
 	width: 100%;
@@ -185,4 +184,5 @@ footer{
 	line-height: 60px;
 	background: #000;
 	color: #fff;
+	overflow: hidden;
 }
