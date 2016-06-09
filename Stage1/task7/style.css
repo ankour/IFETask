@@ -1,0 +1,150 @@
+body,div,html,h1,h2,h3,h4,h5,h6,span,p,ul,li,ol,input,select,button,img{margin: 0;padding:0;}
+body{color:#333; text-align:center;font-size:14px;font-family:"MicroSoft YaHei",Arial,Console,Verdana,Courier New;}
+ul,ol{list-style: none;}
+a,a:hover{text-decoration: none;}
+img{border: 0;}
+
+
+.container{
+	min-width: 1280px;
+}
+.header{
+	width: 100%;
+	height: 56px;
+	background: #fff;
+}
+.header .logo{
+	float: left;
+	margin: 8px 0 0 60px;
+	width: 110px;
+	height: 40px;
+	background: url(img/logo.png);
+}
+.header .nav{
+	float: right;
+	padding-right: 45px;
+}
+.header .nav ul{
+	height: 51px;
+	line-height: 51px;
+	width: 100%;
+}
+.header .nav  li{
+	float: left;
+	text-align: center;
+	line-height: 51px;
+}
+.header .nav a{
+	display: block;
+	transition: all ease-in-out 0.2s;
+}
+.header .nav a:link,.nav a:visited{
+	padding: 0 21px;
+	color: #787b83;
+	border-bottom: 5px solid #fff;
+}
+.header .nav a:hover,.nav a:active{
+	color: #ea6b60;
+	padding: 0 21px;
+	border-bottom: 5px solid #ea6b60;
+}
+.header .nav .login_ico{
+	width: 14px;
+    height: 17px;
+	display: inline-block;
+    overflow: hidden;
+    vertical-align: -2px;
+    padding-left: 5px;
+    background: url(img/login.png) no-repeat left center;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+.banner .slides{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.banner .slides img{
+	width: 100%;
+	height: 694px;
+	vertical-align:top;
+}
+.banner .cover{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    filter:alpha(opacity=30);
+}
+.banner .img_info{
+	position: absolute;
+	top: 230px;
+	left:134px;
+		
+}
+.banner .img_info .title{
+	font-size: 60px;
+	color: #fff;
+	line-height: 1.6;
+}
+.banner .img_info p{
+	font-size: 21px;
+	color: #fff;
+	line-height: 32px;
+	text-align: left;
+}
+.banner .img_info .btn{
+	position: absolute;
+	left: 0;
+	font-size: 30px;
+	color: #fff;
+	padding: 12px 106px;
+	margin-top: 60px;
+	background: #e74f4d;
+	transition: all ease-in-out 0.2s;
+	display: inline-block;
+}
+.banner .img_info .btn:hover{
+	color: #E74F4D;
+    background: #fff;
+}
+.warp{
+	width: 100%;
+	overflow: hidden;
+}
+.warp .option{
+	width: 100%;
+	height: 250px;
+	background: #fff;
+}
+.warp .option li{
+	float: left;
+	width: 332px;
+	margin-top: 44px;
+}
+.warp .option .first{
+	background: url(img/first_icon.png) no-repeat top center;
+}
+.warp .option .second{
+	background: url(img/second_icon.png) no-repeat top center;
+}
+.warp .option .third{
+	background: url(img/third_icon.png) no-repeat top center;
+}
+.warp .option .forth{
+	background: url(img/forth_icon.png) no-repeat top center;
+}
+.warp .option p{
+	margin-top: 88px;
+	padding: 0 88px;
+	height: 52px;
+	color: #767777;
+	border-right: 2px solid #aaa;
+}
+.warp .option p:last-child{
+	border: none;
+}
