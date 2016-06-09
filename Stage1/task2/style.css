@@ -1,0 +1,171 @@
+body,html,h1,h2,h3,ul,li,ol,table,tr,td,input,label,section,form,p{margin: 0;padding: 0;}
+html,body{font: 14px/1 'MicroSoft YaHei';background:#dedede;}
+a{color:blue;cursor: pointer;}
+a:hover{text-decoration: none;}
+
+.header{
+	width: 100%;
+	height: 60px;
+	background: #333;
+}
+.header .logo{
+	float: left;
+	width: 121px;
+	height: 60px;
+	margin-left: 30px;
+	margin-top:-5px;
+	background: url(https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3832851394,4214400323&fm=58&s=39C718720E8EBE011B398BAC0300F024) no-repeat;
+}
+.header .nav{
+	float: right;
+	margin-top: 14px;
+}
+.header .nav li{
+	float: left;
+	width: 90px;
+	line-height: 2;
+}
+.header .nav a{
+	color: #fff;
+	font-size: 12px;
+}
+.header .nav a:hover{
+	color: #ccc;
+}
+article{
+	margin: 20px;
+	padding: 35px 26px 30px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+article h2{
+	
+	line-height: 2;
+}
+article h3{
+	line-height: 2;
+	font-weight: normal;
+}
+article .info{
+	line-height: 2;
+	font-size: 12px;
+}
+article .content{
+	text-indent: 2em;
+	line-height: 2;
+	font-size: 16px;
+}
+article img{
+	margin:10px 0;
+}
+article ul{
+	list-style: none;
+	line-height: 2;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.imglist{
+	margin: 20px;
+	padding: 35px 26px 30px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+.imglist ul{
+	list-style: none;
+	margin-left: 40px;
+	font-size: 12px;
+}
+.imglist li{
+	width: 120px;
+	height: 124px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+}
+.imglist p{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 10px;
+}
+.imglist img{
+	padding: 0 10px 10px 10px;
+}
+.rank{
+	line-height: 1.8;
+	margin:12px 40px;
+	font-size: 14px;
+}
+.tb{
+	width: 100%;
+	height: 20px;
+	border-collapse: collapse;
+	font-size: 12px;
+	text-indent: 5px;
+}
+.tb tr,td{
+	border: 1px solid #ccc;
+}
+.tb .head{
+	background: #000;
+	color: #fff;
+}
+.tb td{
+	height: 20px;
+}
+.tb .bottom{
+	
+	background: #ccc;
+	font-weight: bold;
+}
+
+.side{
+	margin: 20px;
+	padding: 35px 26px 10px 20px;
+	background: #fff;
+	display: block;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+.side .caption{
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+	line-height: 40px;
+	height: 40px;
+}
+.side div{
+	margin:15px 0;
+}
+.side div p{
+	margin-left: 35%;
+	padding: 10px 0 0 10px;
+	color: #ccc;
+}
+.side .tit{
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	text-align: right;
+}
+.side form textarea{
+	width: 765px;
+	height: 100px;
+}
+.side .btn{
+	padding: 10px 47%;
+	margin-top: 10px;
+	background: #3355D0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	height: 68px;
+	text-align: center;
+	line-height: 60px;
+	background: #000;
+	color: #fff;
+}
